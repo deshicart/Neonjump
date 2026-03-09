@@ -1651,6 +1651,7 @@ export default function App() {
         autoCenter: Phaser.Scale.CENTER_BOTH,
         width: W,
         height: H,
+        expandParent: true,
       },
       render: {
         antialias: false,
